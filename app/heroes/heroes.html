@@ -10,7 +10,7 @@
 </ul>
 
 <div class="error" *ngIf="error">{{error}}</div>
-<button class="add-hero" (click)="addHero()">Add New Hero</button>
+<button class="btn-normal" (click)="addHero()">Add New Hero</button>
 <div *ngIf="addingHero">
     <my-hero-detail (close)="close($event)"></my-hero-detail>
 </div>
@@ -19,5 +19,5 @@
     <h2>
     {{selectedHero.name | uppercase}} is my hero
   </h2>
-    <button (click)="gotoDetail()">View Details</button>
+    <button class="btn-normal" (click)="gotoDetail()">View Details</button>
 </div>
