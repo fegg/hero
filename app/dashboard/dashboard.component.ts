@@ -6,6 +6,7 @@ import { Hero, HeroService } from '../common/index'
 @Component({
   selector: 'my-dashboard',
   templateUrl: 'app/dashboard/dashboard.html',
+  styleUrls: [ 'app/dashboard/index.css' ],
   providers: [ HeroService ]
 })
 

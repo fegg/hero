@@ -14,6 +14,7 @@ import { HeroesComponent } from './heroes/index'
         </nav>
         <router-outlet></router-outlet>
     `,
+    styleUrls: [ 'app/app.css' ],
     directives: [ ROUTER_DIRECTIVES, HeroesComponent ],
     providers: [ HeroService ]
 })

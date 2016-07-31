@@ -12,7 +12,8 @@ import { Hero, HeroService } from '../common/index'
 
 @Component({
     selector: 'my-hero-detail',
-    templateUrl: 'app/hero-detail/hero-detail.html'
+    templateUrl: 'app/hero-detail/hero-detail.html',
+    styleUrls: [ 'app/hero-detail/index.css' ]
 })
 
 export class HeroDetailComponent implements OnInit, OnDestroy {

@@ -7,6 +7,7 @@ import { HeroDetailComponent } from '../hero-detail/index'
 @Component({
     selector: 'my-heroes',
     templateUrl: 'app/heroes/heroes.html',
+    styleUrls: [ 'app/heroes/index.css' ],
     directives: [ HeroDetailComponent ],
     providers: [ HeroService ]
 })
