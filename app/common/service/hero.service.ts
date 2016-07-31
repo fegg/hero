@@ -118,7 +118,7 @@ export class HeroService {
      * 
      * 统一错误处理
      * @param {*} error
-     * @returns
+     * @returns {Promise<any>}
      */
     private handleError(error: any): Promise<any> {
         console.error('An error occurred', error)
